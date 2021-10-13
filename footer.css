@@ -1,0 +1,87 @@
+p{
+    color:white;
+    line-height: 25px;
+}
+h3,h2{
+    color:red;
+}
+.footer-top{
+    background-color: black;
+    padding:60px 0;
+}
+.segment-one h3{
+    font-family:Courgette;
+    color:red;
+    letter-spacing: 3px;
+    margin:10px 0;
+}
+.segment-two h2{
+    font-family:Poppins;
+    color:red;
+    letter-spacing: 3px;
+    margin:10px 0;
+}
+.segment-two {
+    position:absolute;
+    left:200px;
+}
+.segment-two ul{
+    list-style:none;
+    padding:0;
+    magin:0;
+    color:white
+}
+.segment-two ul li a{
+    color:white;
+    line-height:30px;
+    font-size:15px;
+}
+.segment-three {
+    position:relative;
+    left:350px;
+}
+.segment-three h2{
+    color:red;
+}
+.segment-three a{
+    background: #494848;
+    width:40px;
+    height:40px;
+    display:inline-block;
+    border-radius: 50%;
+}
+.segment-three a i{
+    font-size: 20px;
+    color:#fff;
+  padding:10px 12px;  
+}
+.footer-bottom-text{
+ text-align:center;
+ background:#000;
+ line-height:75px;
+ padding:0px;
+ margin:0px;
+}
+/* responsive css */
+@media only screen and(min-width:768px) and (max-width:991px){
+    .md-mb-30{
+        margin-bottom:30px;
+    }
+}
+@media only screen and (max-width:510px){
+    .md-mb-30{
+        margin-bottom:30px;
+    }
+    .footer-top{
+        padding:50px 0;
+        
+    }
+    .segment-two{
+        position:absolute;
+        left:10px;
+    }
+    .segment-three{
+        position:absolute;
+        left:10px;
+    }
+}

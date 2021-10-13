@@ -1,0 +1,73 @@
+  #searchBtn{ position: absolute;
+            
+           
+           width: 140px;
+           height: 50px;
+         }  
+           
+         .div2    {  position: absolute;
+          width: 200px;
+          height: 50px;
+          background-color: green;
+       }
+        .div1
+       {   position:absolute;
+         width: 740px;
+         height: 50px;
+         left:500px;
+         top: 300px;
+        background-color: red;
+        border-style: solid;
+       border-width: 10px;
+       border-color: #808080;
+      }
+       .div3    {   position:absolute;
+        width: 200px;
+        height: 50px;
+        left:200px;
+        top: 0px;
+        background-color: green;
+       }
+       .div4    {   position:absolute;
+        
+        width: 200px;
+        left:400px;
+        top: 0px;
+        
+       }
+     .div5    {  position: absolute;
+       top: 0px;
+       left: 600px;
+       width: 140px;
+       background-color: green;
+     }
+
+        .fa-search { position: absolute;
+                     top: 310px;color: blue; 
+                     font-size: 22px;
+                     
+                     left: 150px;
+                   }
+     
+     
+    #searchBtn:hover {
+      background-color:green;
+    }
+    input {
+       border-style: solid;
+       border-width: 10px;
+       border-color: #808080;
+       padding: 24px;
+       top:-8px;
+
+    }
+      .div6    {   position:absolute;
+        width: 240px;
+        height: 71px;
+        left:270px;
+        top: 300px;
+        
+       
+      
+       }
+
